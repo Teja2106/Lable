@@ -36,7 +36,7 @@ export default function Editinfo() {
                     type="name"
                     id="Name"
                     name="nmae"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       
@@ -48,7 +48,7 @@ export default function Editinfo() {
                     type="mobile"
                     id="Mobile"
                     name="mobile"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       
@@ -59,7 +59,7 @@ export default function Editinfo() {
                     type="age"
                     id="Age"
                     name="age"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       
@@ -72,7 +72,7 @@ export default function Editinfo() {
                     type="occupation"
                     id="Occupation"
                     name="occupation"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       

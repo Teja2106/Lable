@@ -36,7 +36,7 @@ export default function Edithealth() {
                     type="description"
                     id="Description"
                     name="description"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt w-full rounded-sm border-gray-200 bg-white text-lg text-gray-700 shadow-sm dark:bg-gray-900 dark:text-white p-1"
                   />
                 </div>
       
@@ -48,7 +48,7 @@ export default function Edithealth() {
                     type="condition"
                     id="Condition"
                     name="condition"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg text-gray-700 shadow-sm dark:bg-gray-900 dark:text-white p-1"
                   />
                 </div>
       
@@ -59,7 +59,7 @@ export default function Edithealth() {
                     type="blood"
                     id="Blood"
                     name="blood"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg text-gray-700 shadow-sm dark:bg-gray-900 dark:text-white p-1"
                   />
                 </div>
       
@@ -72,7 +72,7 @@ export default function Edithealth() {
                     type="allergies"
                     id="Allergies"
                     name="allergies"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg mx-2 text-gray-700 shadow-sm dark:bg-gray-900 dark:text-white p-1"
                   />
                 </div>
       

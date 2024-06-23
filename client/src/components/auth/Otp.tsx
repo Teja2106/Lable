@@ -1,11 +1,13 @@
 import React from 'react'
+import Footer from '../Footer'
 
 export default function Otp() {
   return (
-    <div>
-        <div className="flex items-center justify-center h-screen">
+    <>
+    <div className="dark:bg-yellow-400">
+        <div className="flex items-center p-6  justify-center h-screen">
   
-  <div className="w-full bg-gray-100 dark:bg-gray-800  lg:w-1/2 flex items-center justify-center">
+  <div className="w-full bg-gray-100 dark:bg-gray-800  lg:w-1/2 flex items-center rounded-xl justify-center">
     <div className="max-w-md w-full p-6">
       <h1 className="text-3xl font-semibold mb-6 text-black dark:text-white text-center">login</h1>
       <h1 className="text-sm font-semibold mb-6 text-gray-500 dark:text-gray-300 text-center">Join to Our Community with all time access and free </h1>
@@ -50,5 +52,7 @@ export default function Otp() {
   </div>
 </div>
     </div>
+    <Footer/>
+    </>
   )
 }

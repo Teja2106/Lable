@@ -17,7 +17,7 @@ export default function Navbar() {
                                                 <div className="flex flex-1 items-center justify-end">
                                                         <div className="flex items-center gap-4">
                                                                 <div className="sm:flex sm:gap-4 text-right">
-                                                                        <a href="./auth/login" className="text-sm font-semibold leading-6 text-grey-400 dark:text-white ">Log
+                                                                        <a href="./auth/login" className="text-md font-semibold leading-6 text-grey-400 dark:text-white ">Log
                                                                                  out <span aria-hidden="true">→</span></a>
                                                                 </div>
                                                         </div>

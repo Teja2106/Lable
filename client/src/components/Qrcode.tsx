@@ -7,7 +7,7 @@ const qrCode = new QRCodeStyling({
   image: 'https://opaq.pages.dev/assets/whitebg.png', 
   dotsOptions: {
     color: '#00000',
-    type: 'rounded'
+    type: 'extra-rounded'
   },
   imageOptions: {
     crossOrigin: 'anonymous',
@@ -81,6 +81,6 @@ const styles = {
     marginRight: 20, 
     padding: '8px',
     border: '1px solid #ccc',
-    borderRadius: '4px'
+    borderRadius: '9px'
   }
 };

@@ -17,6 +17,9 @@ export default function Footer() {
     </p>
 
     <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+    <li>
+        <a className="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-200 dark:hover:text-gray-200/75" href="/dashboard"> Dashboard </a>
+      </li>
       <li>
         <a className="text-gray-700 transition hover:text-gray-700/75 dark:text-gray-200 dark:hover:text-gray-200/75" href="#"> About </a>
       </li>

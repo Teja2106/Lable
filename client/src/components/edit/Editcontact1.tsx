@@ -35,7 +35,7 @@ export default function Editcontact1() {
                     type="description"
                     id="Description"
                     name="description"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white  text-gray-700 shadow-sm text-lg dark:bg-gray-900 dark:text-white p-1"
                   />
                 </div>
       
@@ -47,7 +47,7 @@ export default function Editcontact1() {
                     type="condition"
                     id="Condition"
                     name="condition"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       
@@ -58,7 +58,7 @@ export default function Editcontact1() {
                     type="blood"
                     id="Blood"
                     name="blood"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       
@@ -71,7 +71,7 @@ export default function Editcontact1() {
                     type="allergies"
                     id="Allergies"
                     name="allergies"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
                 <div className="col-span-6 sm:col-span-3">
@@ -83,7 +83,7 @@ export default function Editcontact1() {
                     type="allergies"
                     id="Allergies"
                     name="allergies"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       

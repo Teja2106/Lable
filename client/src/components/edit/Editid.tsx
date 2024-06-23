@@ -35,7 +35,7 @@ export default function Editid() {
                     type="name"
                     id="name"
                     name="name"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm "
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm "
                   />
                 </div>
       
@@ -47,7 +47,7 @@ export default function Editid() {
                     type="mobile"
                     id="mobile"
                     name="mobile"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       
@@ -58,7 +58,7 @@ export default function Editid() {
                     type="Workplace"
                     id="Workplace"
                     name="Workplace"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       
@@ -71,7 +71,7 @@ export default function Editid() {
                     type="designation"
                     id="designation"
                     name="designation"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
                 <div className="col-span-6 sm:col-span-3">
@@ -83,7 +83,7 @@ export default function Editid() {
                     type="eid"
                     id="eid"
                     name="eid"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-lg dark:bg-gray-900 dark:text-white p-1 text-gray-700 shadow-sm"
                   />
                 </div>
       

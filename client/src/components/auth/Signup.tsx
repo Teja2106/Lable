@@ -10,7 +10,7 @@ export default function Signup() {
       
     </div>
   </div>
-  <div className="w-full bg-gray-100 dark:bg-gray-950  lg:w-1/2 flex items-center justify-center">
+  <div className="w-full bg-gray-100 dark:bg-gray-900  lg:w-1/2 flex items-center justify-center">
     <div className="max-w-md w-full ">
          <div className="lg:text-left text-center">
               <h2 className="mt-6 text-5xl font-bold text-gray-900 dark:text-gray-100">
@@ -42,22 +42,22 @@ export default function Signup() {
       <form action="#" method="POST" className="space-y-4">
         <div>
           <label htmlFor="username" className="block text-sm font-medium text-left dark:text-gray-400 text-gray-700">Full Name</label>
-          <input type="text" id="username" name="username" className="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300"/>
+          <input type="text" id="username" name="username" className="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-21focus:ring-offset-1   focus:ring-gray-300 transition-colors duration-300 dark:bg-gray-800" placeholder="Full name"/>
         </div>
         <div>
           <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-400 text-left">Email</label>
-          <input type="text" id="email" name="email" className="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300"/>
+          <input type="text" id="email" name="email" className="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300 dark:bg-gray-800" placeholder="example@email.com"/>
         </div>
         <div>
           <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-400 text-left">Password</label>
-          <input type="password" id="password" name="password" className="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300"/>
+          <input type="password" id="password" name="password" className="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300 dark:bg-gray-800" placeholder="Password"/>
         </div>
         <div>
           <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-400 text-left">Confirm Password</label>
-          <input type="password" id="password2" name="password" className="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300"/>
+          <input type="password" id="password2" name="password" className="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300 dark:bg-gray-800" placeholder="Confirm Password"/>
         </div>
         <div>
-          <button type="submit" className="w-full bg-black dark:bg-slate-600  text-white p-2 rounded-md hover:bg-gray-800 focus:outline-none focus:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 transition-colors duration-300">Sign Up</button>
+          <button type="submit" className="w-full bg-black dark:bg-white dark:text-black text-lg font-semibold  text-white p-2 rounded-md dark:hover:text-white hover:bg-blue-800 focus:outline-none focus:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 transition-colors duration-300">Sign Up</button>
         </div>
       </form>
       <div className="mt-4 text-sm text-gray-600 dark:text-gray-400 text-center">
