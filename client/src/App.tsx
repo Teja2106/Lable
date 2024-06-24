@@ -8,7 +8,7 @@ import Dashboard from "./components/Dashboard";
 import Auth from './components/auth/Auth';
 import Login from './components/auth/Login';
 import Signup from './components/auth/Signup';
-import Otp from './components/auth/Otp';
+// import Otp from './components/auth/Otp';
 import Verify from './components/auth/Verify';
 
 
@@ -24,10 +24,10 @@ function App() {
         < Route path="/edit/id" element={< Editid/>} />
         < Route path="/edit/contacts/1" element={< Editcontact1/>}/>
         < Route path='/auth' element={<Auth/>}/>
-        < Route path="/auth/login" element={<Login/>}/>
-        < Route path="/auth/signup" element={<Signup/>}/>
-        < Route path='/auth/login/otp' element={ <Otp/>}/>
-        < Route path="/auth/login/verify/otp" element={<Verify/>}/>
+        < Route path="/login" element={<Login/>}/>
+        < Route path="/signup" element={<Signup/>}/>
+        {/* < Route path='/auth/login/otp' element={ <Otp/>}/> */}
+        < Route path="/login/verify-otp" element={<Verify/>}/>
       </Routes>
     </Router>
   );
