@@ -4,7 +4,7 @@ import QRCodeStyling, { FileExtension } from 'qr-code-styling';
 const qrCode = new QRCodeStyling({
   width: 225,
   height: 225,
-  image: 'https://opaq.pages.dev/assets/whitebg.png', 
+  image: 'https://opaq.pages.dev/assets/whitebg.png',
   dotsOptions: {
     color: '#00000',
     type: 'extra-rounded'
@@ -21,10 +21,10 @@ export default function Qrcode() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-        if (ref.current) { // Check if ref.current is not null 
-          qrCode.append(ref.current);
-        }
-      }, []);
+    if (ref.current) { // Check if ref.current is not null 
+      qrCode.append(ref.current);
+    }
+  }, []);
 
   useEffect(() => {
     qrCode.update({
@@ -50,9 +50,9 @@ export default function Qrcode() {
   return (
     <div className="App">
       <div style={styles.inputWrapper}>
-        <input 
-          value={url} 
-          onChange={onUrlChange} 
+        <input
+          value={url}
+          onChange={onUrlChange}
           style={styles.inputBox}
           placeholder="Enter URL"
           hidden
@@ -64,7 +64,7 @@ export default function Qrcode() {
         </select>
         <button onClick={onDownloadClick}>Download</button> */}
       </div>
-      <div ref={ref} /> 
+      <div ref={ref} />
     </div>
   );
 }
@@ -78,7 +78,7 @@ const styles = {
   },
   inputBox: {
     flexGrow: 1,
-    marginRight: 20, 
+    marginRight: 20,
     padding: '8px',
     border: '1px solid #ccc',
     borderRadius: '9px'

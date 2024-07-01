@@ -1,6 +1,0 @@
-{
-  "dependencies": { "qr-code-styling": "^1.6.0-rc.1" },
-  "devDependencies": {
-    "react-router-dom": "^6.23.1"
-  }
-}

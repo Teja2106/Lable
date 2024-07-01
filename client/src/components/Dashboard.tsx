@@ -8,14 +8,14 @@ import Footer from './Footer'
 
 export default function Dashboard() {
   return (
-    <div><>
-    < Navbar />
-    < Header />
-    < Userinfo />
-    < Health />
-    < Contact1 />
-    < Workid />
-    <Footer />
-    </></div>
+    <div>
+      <Header />
+      <Navbar />
+      <Userinfo />
+      <Health />
+      <Contact1 />
+      <Workid />
+      <Footer />
+    </div>
   )
 }

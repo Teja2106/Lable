@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Navbar() {
         return (
                 <div>
@@ -11,14 +9,14 @@ export default function Navbar() {
                                                                 <span className="sr-only">Home</span>
                                                                 <img className="h-10 rounded-full" src="https://i.pinimg.com/236x/27/e8/07/27e807e80993b12e1899b779fcde981b.jpg  " alt="Home" />
                                                         </a>
-                                                        
+
                                                 </div>
 
                                                 <div className="flex flex-1 items-center justify-end">
                                                         <div className="flex items-center gap-4">
                                                                 <div className="sm:flex sm:gap-4 text-right">
                                                                         <a href="./auth/login" className="text-md font-semibold leading-6 text-grey-400 dark:text-white ">Log
-                                                                                 out <span aria-hidden="true">→</span></a>
+                                                                                out <span aria-hidden="true">→</span></a>
                                                                 </div>
                                                         </div>
                                                 </div>
