@@ -10,6 +10,8 @@ import Login from './components/auth/Login';
 import Signup from './components/auth/Signup';
 // import Otp from './components/auth/Otp';
 import Verify from './components/auth/Verify';
+import Profile from './components/Profile/Profile';
+import Static from './components/static/Static';
 
 
 
@@ -28,6 +30,8 @@ function App() {
         < Route path="/signup" element={<Signup/>}/>
         {/* < Route path='/auth/login/otp' element={ <Otp/>}/> */}
         < Route path="/login/verify-otp" element={<Verify/>}/>
+        <Route path="/profile" element={<Profile/>}/>
+        < Route path='/profile/VD21A20012' element={<Static/>}/>
       </Routes>
     </Router>
   );
