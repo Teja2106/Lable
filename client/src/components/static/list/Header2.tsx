@@ -18,7 +18,7 @@ export default function Header2() {
           <img
             alt="Your Description"
             src={yourImage}
-            className="absolute inset-0 h-full w-full object-cover"
+            className=" inset-0 h-full w-full object-cover"
           />
         </div>
       </div>
